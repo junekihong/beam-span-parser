@@ -1,0 +1,18 @@
+# PyCharm directories
+.idea/
+
+# Mac OS X files
+.DS_Store
+
+# EVALB output files
+EVALB/evalb
+EVALB/evalb.dSYM/
+
+# Uncompressed models
+models/*.data
+models/*.meta
+
+# Python byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
