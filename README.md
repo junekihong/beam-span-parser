@@ -10,6 +10,7 @@ A DP beam-search extension of Mitchell Stern's span-based neural constituency pa
 ## Training
 
 A new model can be trained using the command `python3 src/main.py train ...` with the following arguments:
+
 Argument | Description | Default
 --- | --- | ---
 `--numpy-seed` | NumPy random seed | Random
