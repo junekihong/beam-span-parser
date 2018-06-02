@@ -348,7 +348,6 @@ class BeamParser(object):
                             leftstate = state.leftptrs[0]
                             k = leftstate.i
                             reduce_score, label = score_span(k, j, force_gold)
-                            inside = leftstate.inside + state.inside + reduce_score
                             result = State(k, j)
                             result.label = label
                             result.prefix = leftstate.prefix + state.inside + reduce_score
