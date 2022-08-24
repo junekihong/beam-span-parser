@@ -1,5 +1,6 @@
 # Linear-Time Span-Based Neural Constituency Parser
 
+[Link to the paper](https://aclanthology.org/P18-2076/).
 A DP beam-search extension of Mitchell Stern's span-based neural constituency parser, based on the [code from his github](https://github.com/mitchellstern/minimal-span-parser).
 
 ## Requirements and Setup
